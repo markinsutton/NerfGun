@@ -56,12 +56,6 @@ switch:
       inverted: yes
     name: "fire"
     id: fire
-    # on_turn_on: 
-    #   - delay: 0.3s
-    #   - switch.turn_off: fire
-    #   - delay: 0.3s
-    #   - switch.turn_off: feed
-    # restore_mode: ALWAYS_OFF
 
 binary_sensor:
   - platform: gpio
