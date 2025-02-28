@@ -16,17 +16,17 @@ wifi:
 
   ap:
     ssid: "Nurf-Gun Fallback Hotspot"
-    password: "DibiUQCWJXqo"
+    password: "AP Password"
 
 logger:
 
 api:
   encryption:
-    key: "bbRGearzkb00E3KcLYkwMxla2fcYmSNTMVESQ5zPJUw="
+    key: "Secret-Api"
 
 ota:
   - platform: esphome
-    password: "af4707963e1f5af22b09695c56d56588"
+    password: "OTA password"
 
 captive_portal:
 
